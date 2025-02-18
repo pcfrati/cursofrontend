@@ -33,4 +33,46 @@ switch (mes) {
 }
 
 
-// 
+
+//  estrutura de repetição
+
+//? for (contável)
+
+for(let i = 0; i<=100; i++){  // i++ adiciona mais um    i+=2 adiciona mais dois
+    console.log(i);
+}
+
+
+
+//? while (incontável)
+
+var continuar = true; // condição de parada
+var numeroEscolhido = Math.round(Math.random()*10);
+var contador = 0;
+while(continuar){ // parada acontece quando continuar = false
+    contador++;
+    let numeroSorteado = Math.round(Math.random()*10);  // math round arredonda o número
+    console.log("O número sorteado foi: "+numeroSorteado)
+
+    if(numeroEscolhido==numeroSorteado){
+        continuar = false;
+        console.log("Parbéns, acertou! O número era: "+numeroEscolhido)
+        console.log("Tentativas: "+contador);
+    }
+}
+
+
+
+//? funções (ações especificas) podendo ser chamada a qualquer momento do código
+
+function ola (nome){ // function retorn
+    return "Olá, "+nome; 
+}
+
+function hello (nome){ // function void
+    console.log("Hello, "+nome)
+}
+
+console.log(ola("Paula"));
+
+hello("Paula");
