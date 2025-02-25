@@ -1,6 +1,6 @@
 // funçoes matemáticas
 
-//? sqrt, pow (quadrado, potência
+//? sqrt, pow (quadrado, potência)
 console.log(Math.sqrt(25)); // √25=5
 console.log(Math.pow(2, 3)); // 2³
 console.log(Math.pow(27, 1/3));  // ³√27=3  (raiza cúbica)
