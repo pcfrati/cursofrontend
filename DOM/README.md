@@ -1,0 +1,1 @@
+O DOM (Document Object Model) é uma interface de programação que representa documentos HTML e XML como uma árvore de objetos. Ele permite que os scripts manipulem a estrutura, o estilo e o conteúdo de uma página da web de maneira dinâmica.
