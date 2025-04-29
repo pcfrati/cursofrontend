@@ -1,0 +1,50 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    background-color: rgb(255, 221, 244);
+}
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: #ff94c9;
+}
+section{
+    background-color: white;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+button{
+    background-color: rgb(238, 144, 191);
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 3px;
+    cursor: pointer;;
+}
+button:hover{
+    background-color: rgb(170, 54, 102);
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+li{
+    background-color: #bbb;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 3px;
+}
+input{
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 8px;
+    border: solid 1px #ff94c9;
+}
+select{
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 8px;
+    border: solid 1px #ff94c9;
+}
