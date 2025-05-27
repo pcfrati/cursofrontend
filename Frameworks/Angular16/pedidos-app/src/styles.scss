@@ -10,7 +10,6 @@ body{
   padding: 20px;
   background-color: #ffdbef;
 }
-
 .container{
   max-width: 1200px;
   margin: 0 auto;
@@ -19,12 +18,10 @@ body{
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
-
 h1, h2, h3 {
   color: #ff88ca;
   margin-bottom: 12px;
 }
-
 button{
   padding: 8px 16px;
   background-color: dodgerblue;
@@ -40,11 +37,9 @@ button{
     background-color: rgb(23, 97, 172);
   }
 }
-
 .aqui {
     text-align: center;
 }
-
 input, select {
   padding: 8px;
   margin: 8px 0 16px 0;
@@ -52,15 +47,12 @@ input, select {
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 16px;
-
 }
-
 label{
   font-weight: bold;
   display: block;
   margin-top: 12;
 }
-
 hr{
     margin: 20px 0;
     border: none;
