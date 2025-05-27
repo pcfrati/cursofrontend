@@ -13,7 +13,7 @@ export class DadosService {
 
   constructor() { }
 
-  //métodos
+  //métodos (crud)
   getClientes(): Cliente[]{
     return this.clientes;
   }
