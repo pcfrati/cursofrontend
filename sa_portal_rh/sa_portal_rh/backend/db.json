@@ -29,5 +29,14 @@
       "salario": 8000
     }
   ],
-  "curriculos": []
+  "curriculos": [
+    {
+      "id": "1",
+      "nome": "Julia Costa",
+      "formacao": "USP Administração",
+      "experiencia": "Nenhuma",
+      "habilidades": "Todas",
+      "linkedin": "juliacosta"
+    }
+  ]
 }

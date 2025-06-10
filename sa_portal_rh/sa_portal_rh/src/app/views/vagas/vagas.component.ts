@@ -25,13 +25,7 @@ export class VagasComponent implements OnInit {
       // subscribe é um método do Observable que permite recber dados e tratá-los para vetor
       (e) => {   // listar vaga por vaga dentro do vetor
         this.vagas = e.map((vaga) => {
-          return new Vaga(
-            vaga.id,
-            vaga.nome,
-            vaga.foto,
-            vaga.descricao,
-            vaga.salario
-          );
+          return Vaga.fromMap(vaga);
         });
       }
     );
