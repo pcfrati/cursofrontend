@@ -5,6 +5,8 @@ import { Injectable } from '@angular/core';
 @Injectable({
   providedIn: 'root',
 })
+
+// implements da interface (classe abstrata)
 export class AuthGuard implements CanActivate {
   constructor(private authService: AuthService, private router: Router) {}
 
