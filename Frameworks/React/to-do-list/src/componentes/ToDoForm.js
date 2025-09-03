@@ -31,3 +31,5 @@ const ToDoForm = ({ addTarefa }) => {
 };
 
 export default ToDoForm;
+// componente para criar um formulário para inserir uma nova tarefa
+// pode ser reutilizado em outros componentes (export)
